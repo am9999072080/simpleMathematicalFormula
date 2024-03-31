@@ -48,7 +48,7 @@ public class Test {
         StdDraw.setPenColor(StdDraw.BLACK);
         StdDraw.line(-2, 0.5, 2, 0.5);
         StdDraw.line(0.5, -2, 0.5, 2);
-        StdDraw.picture(0.5, 0.5, "src/main/java/org/akhverdian/data/axis1.png");
+        StdDraw.picture(0.5, 0.5, "src/data/axis1.png");
         StdDraw.setPenRadius(0.022);
         StdDraw.setPenColor(StdDraw.BLUE);
         StdDraw.point(x1, y1);
@@ -59,7 +59,8 @@ public class Test {
         StdDraw.text(x1 + 0.08, y1, "A(" + stX + ", " + stY + ')');
 
         StdDraw.text(0.09, 1.02, "\u221A(b\u00B2 - 4ac) = " + root);
-        StdDraw.text(0.15, 0.97, "X = (b + \u221A(b\u00B2 - 4ac)) : 2a) = " + x);
+        StdDraw.text(0.15, 0.97, "x = (b + \u221A(b\u00B2 - 4ac)) : 2a) = " + x);
+        StdDraw.text(0.04, 0.92, "y = " + y);
 
     }
 }
