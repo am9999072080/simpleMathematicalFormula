@@ -27,7 +27,6 @@ public class Test {
 
         x = (int) (b + Math.sqrt(root)) / (2 * a);
 
-
         System.out.println("\u221A(b\u00B2 - 4ac) = \u221A(" + b + "\u00B2 - " + 4 + " * " + a + " * " + c + ") = " + root);
         System.out.println("X = (b + \u221A(b\u00B2 - 4ac)) : 2a) = (" + b + " + " + "\u221A(" + b + "\u00B2 - " + 4 + " * " + a + " * " + c + ")) : " + 2 + " * " + a + " = " + x);
 
